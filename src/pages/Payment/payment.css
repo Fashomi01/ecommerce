@@ -1,0 +1,65 @@
+/* register. */
+
+.logo {
+    width: 35%;
+    margin: auto;
+}
+
+.logo img {
+    width: 30%;
+    display: block;
+    margin: 30px auto;
+}
+
+.payment_box {
+    text-align: center;
+    margin: auto;
+    width: 55%;
+    padding: 30px 60px;
+    border-radius: 20px;
+    border: 0.5px solid #ccc;
+    border-top: 3px solid #09BC7B;
+    border-bottom: 3px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.payment_content {
+    line-height: 35px;
+}
+
+.payment_content h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    word-spacing: 2px;
+    color: #0386CF;
+}
+
+.payment_content p {
+    font-size: 1rem;
+    font-weight: 400;
+    word-spacing: 1px;
+    color: #504E4E;
+    margin-bottom: 20px;
+}
+
+.register_form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.payment_btn {
+    display: block;
+    margin: auto;
+    height: 45px;
+    padding: 0 30px;
+    background-color: rgb(33, 145, 250);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    border-radius: 6px;
+    border: none;
+}

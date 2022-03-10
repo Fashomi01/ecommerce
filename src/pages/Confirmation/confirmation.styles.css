@@ -1,0 +1,45 @@
+.confirmation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.confirmation_box{
+    width: auto;
+    align-self: center;
+    margin: 0 1rem;
+    padding: 30px 60px;
+    border-radius: 20px;
+    border: 0.5px solid #ccc;
+    border-top: 3px solid #035e12;
+    border-bottom: 3px solid #ccc;
+    background-color: #fff;
+}
+.confirmation_box_verify{
+    padding: 7px 60px;
+    width: 500px;
+    height: 120px;
+    background: #D6F6EE;
+    border-radius: 20px;
+}
+.confirmation_mail{
+    padding: auto;
+    font-size: 18px;
+}
+.payment_header{
+    padding-top: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    color: #0386CF;
+}
+.payment_content_text{
+    font-family: 'Arial';
+    font-style: normal;
+    font-size: 17px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #000000;
+}

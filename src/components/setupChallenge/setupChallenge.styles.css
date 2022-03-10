@@ -1,0 +1,147 @@
+.setup-challenge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.setup-challenge-box {
+  width: auto;
+  align-self: center;
+  margin: 0 1rem;
+  padding: 30px 60px;
+  border-radius: 20px;
+  border: 0.5px solid #ccc;
+  border-top: 3px solid #cb03cf;
+  border-bottom: 3px solid #ccc;
+  background-color: #fff;
+}
+
+.setup-challenge-h1 {
+  font-weight: 600;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+.setup-challenge-h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.setup-form {
+  background-color: #c9e3ff;
+  color: #606d7a;
+  border-radius: 10px;
+  min-width: 35rem;
+  min-height: 10rem;
+  width: auto;
+  height: auto;
+}
+.setup-form-input {
+  background-color: #c9e3ff;
+  border: none;
+  width: 100%;
+  font-size: 0.8rem;
+  min-height: 10rem;
+  padding: 0 1rem;
+}
+.setup-submit {
+  display: flex;
+  flex-direction: column;
+}
+.setup-btn {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 4rem;
+  border-radius: 7px;
+  border: none;
+  margin-top: 0.9rem;
+  width: auto;
+  max-width: 210rem;
+  align-self: center;
+  cursor: pointer;
+}
+.setup-btn-2 {
+  color: #c4c4c4;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 3.5rem;
+  border-radius: 7px;
+  border: none;
+  width: auto;
+  max-width: 210rem;
+  align-self: center;
+}
+.setup-btn:hover {
+  background-color: #1165c0;
+}
+.setup-span {
+  font-size: 1.3rem;
+  color: #8899ac;
+  margin: 0.5rem 0;
+}
+
+@media only screen and (max-width: 709px) {
+  .setup-form {
+    width: auto;
+    height: 10rem;
+    padding: 0 30px;
+  }
+  .setup-challenge {
+    margin: 20vh 1rem;
+  }
+  .setup-form {
+    background-color: #c9e3ff;
+    color: #606d7a;
+    border-radius: 10px;
+    min-width: 25rem;
+    min-height: 10rem;
+    width: auto;
+    height: auto;
+  }
+  .setup-form-input {
+    background-color: #c9e3ff;
+    border: none;
+    width: 100%;
+    font-size: 0.8rem;
+    min-height: 10rem;
+  }
+}
+@media only screen and (max-width: 543px) {
+  .setup-form {
+    background-color: #c9e3ff;
+    color: #606d7a;
+    border-radius: 10px;
+    min-width: 15rem;
+    min-height: 1rem;
+    width: auto;
+    height: auto;
+  }
+  .setup-form-input {
+    background-color: #c9e3ff;
+    border: none;
+    width: 100%;
+    font-size: 0.8rem;
+    min-height: 5rem;
+  }
+  .setup-form {
+    width: auto;
+    height: 10rem;
+    padding: 0 10px;
+  }
+}
+@media only screen and (max-width: 371px) {
+    .setup-form {
+    width: auto;
+    height: 10rem;
+    padding: 0 0;
+  }
+  .setup-challenge-box {
+  width: auto;
+  align-self: center;
+  margin: 0 .2rem;
+  padding: 30px 10px;
+}
+}
