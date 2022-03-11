@@ -1,7 +1,7 @@
 import React from 'react';
-import './dashboard.css'
-import { DailyCards } from '../../components/Cards';
-import Sidenav from '../../components/SideNav';
+import './dashboard.styles.css'
+import DailyCards  from '../../components/Cards/card.component';
+import Sidenav from '../../components/SideNav/sideNav.component';
 
 const Dashboard = () => {
 	return (

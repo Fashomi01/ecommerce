@@ -36,6 +36,7 @@ const Confirmation = () => {
             </div>
             <input />
           </div>
+          <button>Pay now</button>
 
         </div>
       </div>

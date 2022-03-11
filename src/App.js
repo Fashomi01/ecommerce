@@ -6,6 +6,7 @@ import LoginPage from './pages/auth/login/login.component'
 import Payment from "./components/payment/payment.component";
 import SubmitProgress from "./components/submitProgress/submitProgress.component";
 import ConfirmationPage from "./pages/Confirmation/confirmation.component";
+import Dashboard from "./pages/Dashboard/Dashboard.component";
 import './App.css'
 
 
@@ -21,6 +22,7 @@ render () {
         <Route path="/payment" component={Payment} />
         <Route path="/welcome" component={SubmitProgress} />
         <Route path="/confirmation" component={ConfirmationPage} />
+        <Route path="/dashboard" component={Dashboard} />
       </Switch>
     </div>
   );
